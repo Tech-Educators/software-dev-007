@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model Fun!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">Hi, I'm a 152x152 box.</div>
+
+    <p>
+      Despite width and height settings being 140px each, the total of the box
+      is 152px
+    </p>
+    <p>
+      This is because the 3px of border and 3px of padding have increased the
+      size
+    </p>
+
+    <div class="box box-sized">I am aCTuaLlY 140x140</div>
+
+    <p>This box has <code>box-sizing: border-box;</code></p>
+    <p>
+      This means that the size we give the box will also include the padding and
+      border.
+    </p>
+    <p>
+      In both cases, margin just moves the boxes around and has NO impact on the
+      size.
+    </p>
+  </body>
+</html>

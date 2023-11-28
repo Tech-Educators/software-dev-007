@@ -1,0 +1,13 @@
+.box {
+  width: 140px;
+  height: 140px;
+  border: 3px solid black;
+  padding: 3px;
+  margin: 3px;
+}
+
+.box-sized {
+  /* modern box sizing, we generally apply to every element on the  page to ensure
+  adjusing padding or border does not alter the width of the element */
+  box-sizing: border-box;
+}
