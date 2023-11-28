@@ -1,0 +1,18 @@
+.product {
+  max-width: 400px;
+  font-family: sans-serif;
+  position: relative; /* if we remove this, this .info moves absolutley to the page */
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 0 20px;
+}

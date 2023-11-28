@@ -1,0 +1,34 @@
+/* cookie notice styles */
+.cookie-notice {
+  /* positioning styles */
+  /* position: absolute; this style doesn't make the cookie notice stay in place when we scroll  */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  /* make it look good styles */
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  font-size: 2rem;
+  font-family: arial;
+  border-radius: 10px;
+}
+
+/* button styles */
+.btn {
+  border: none;
+  font-size: 24px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.reject {
+  background-color: coral;
+}
+
+.approve {
+  background-color: mediumspringgreen;
+}
