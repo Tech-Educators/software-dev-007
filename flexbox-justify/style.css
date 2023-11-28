@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2,
+p {
+  margin: 0 0 10px 0;
+}
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  background-color: #3f0f46;
+  border-radius: 10px;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.sizechange {
+  height: unset;
+  width: 33.3%;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.jc-flex-start {
+  justify-content: flex-start;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+/* direction */
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+/* wrap */
+.wrap-nowrap {
+  flex-wrap: nowrap;
+}
+
+.wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.wrap-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* align-items */
+.ai-flex-start {
+  align-items: flex-start;
+  /* Items are aligned to the start of the container */
+}
+
+.ai-flex-end {
+  align-items: flex-end;
+  /* Items are aligned to the end of the container */
+}
+
+.ai-center {
+  align-items: center;
+  /* Items are centered in the container */
+}
+
+.ai-baseline {
+  align-items: baseline;
+  /* Items are aligned such as their baselines align */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37bcff;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.box:nth-child(1) {
+  background-color: #ff5292;
+}
+
+.box:nth-child(2) {
+  background-color: #ffc540;
+}
+
+.bigbox {
+  min-height: 150px;
+}
+
+.biggerbox {
+  min-height: 200px;
+}
