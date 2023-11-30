@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+  border: 1px solid black;
+  background-size: cover; /* how large it is in the div */
+  background-repeat: no-repeat; /* whether it should repeat */
+  background-position: center; /* where the image should sit */
+  position: relative; /* so the absolute children have something to be relative to */
+
+  /* instead of position properties, we could give this display: flex and use justify-content and align-items to move the description around */
+}
+
+.godzilla {
+  background-image: url("./images/godzilla.jpg"); /* the actual image */
+}
+
+.unicorn {
+  background-image: url("./images/unicorn.jpg");
+}
+.description {
+  color: white;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+}
