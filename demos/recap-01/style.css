@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(71, 131, 12);
+}
+
+p {
+  color: bisque;
+}
+
+.big {
+  font-size: 3rem;
+  padding: 10px;
+  border: 10px solid black;
+  margin: 10px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.abs {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.red {
+  background-color: red;
+  color: red;
+  border: 1px solid red;
+}
