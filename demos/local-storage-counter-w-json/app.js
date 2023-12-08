@@ -19,6 +19,11 @@ function addOne(type) {
     dislikesView.textContent = data.dislikes;
   }
 
+  // alternative way
+  // data[type]++
+  // likesView.textContent = data.likes;
+  // dislikesView.textContent = data.dislikes;
+
   // add to localStorage
   const stringifiedData = JSON.stringify(data);
   localStorage.setItem("data", stringifiedData);
