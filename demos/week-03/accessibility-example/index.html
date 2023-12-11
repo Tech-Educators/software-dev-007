@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/about.html">About</a>
+    </nav>
+    <h1>Accessibility and Focus Demo</h1>
+    <p>Open the console to see which elements are focused</p>
+    <p>Use Tab and Shift+Tab to cycle back and forward between elements</p>
+    <p>Use Enter of Space to press the buttons</p>
+    <input type="text" placeholder="Input Field" />
+    <button>Click me</button>
+    <a href="https://google.com" tabindex="0">Link without button</a>
+    <textarea placeholder="Textarea"></textarea>
+  </body>
+</html>
