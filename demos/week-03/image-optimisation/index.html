@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Optimisation</title>
+    <style>
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SrcSet</h1>
+    <p>
+      Open the Network Tab in dev tools and see which images load as you load
+      the page at different screensizes.
+    </p>
+    <p>
+      Compare the metric witha single large image, and many smaller images using
+      srcset.
+    </p>
+    <p>
+      Note that sometimes metrics can vary, and can be affected by network
+      speed.
+    </p>
+    <img
+      src="https://picsum.photos/2000/1000"
+      srcset="
+        https://picsum.photos/500/250    500w,
+        https://picsum.photos/1000/500  1000w,
+        https://picsum.photos/1500/750  1500w,
+        https://picsum.photos/2000/1000 2000w
+      "
+    />
+  </body>
+</html>
