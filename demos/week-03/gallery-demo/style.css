@@ -1,0 +1,18 @@
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 2px solid black;
+}
+
+.thumbnails img {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+#displayImage {
+  width: 100%;
+}
