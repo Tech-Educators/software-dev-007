@@ -1,0 +1,12 @@
+body {
+  background-color: cadetblue;
+  color: white;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 1rem;
+}
