@@ -11,8 +11,22 @@ app.get("/", function (request, response) {
   response.json("You are looking at my root route. How roude!");
 });
 
+// request.query will look like { id: 2 }
+// if we make the url /jokes?id=2
 app.get("/jokes", function (request, response) {
-  const jokes = db.prepare("SELECT * FROM jokes").all();
+  let jokes = [];
+
+  // check if the user has provided a query in the URL (/jokes?id=2)
+  if (request.query.id) {
+    jokes = db
+      .prepare(`SELECT * FROM jokes WHERE id=${request.query.id}`)
+      .all();
+  } else {
+    // if the URL has no query, get ALL the jokes
+    jokes = db.prepare("SELECT * FROM jokes").all();
+  }
+
+  // send either the array of all the jokes, or just the one we queried for
   response.json(jokes);
 });
 

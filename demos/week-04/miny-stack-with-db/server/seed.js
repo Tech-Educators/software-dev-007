@@ -3,6 +3,7 @@ const db = new Database("database.db");
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS jokes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     setup TEXT,
     punchline TEXT
   )
