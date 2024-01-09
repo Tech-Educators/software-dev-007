@@ -1,0 +1,19 @@
+/*
+
+if we target everything with *, we will still target everything,
+we only seperated the files so it would be easier
+for us to find the styles
+
+* {
+  color: red;
+}
+
+*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}

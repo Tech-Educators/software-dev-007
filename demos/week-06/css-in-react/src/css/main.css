@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+}
