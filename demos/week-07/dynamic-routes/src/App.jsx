@@ -15,7 +15,12 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/users/:username" element={<UserPage />} />
+
+        <Route path="/users/:username" element={<UserPage />}>
+          <Route path="posts" element={<p>This is the posts part</p>} />
+          <Route path="likes" element={<p>This is the likes part</p>} />
+        </Route>
+
         <Route path="/animals" element={<Animals />} />
         <Route path="*" element={<h2>404 page not found</h2>} />
       </Routes>
