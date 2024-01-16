@@ -1,0 +1,5 @@
+.sort-btns,
+nav {
+  display: flex;
+  gap: 1rem;
+}
