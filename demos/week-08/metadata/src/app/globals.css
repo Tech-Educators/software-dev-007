@@ -1,0 +1,10 @@
+body {
+  background-color: cadetblue;
+  color: white;
+  font-family: monospace;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
