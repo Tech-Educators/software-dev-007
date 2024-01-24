@@ -1,0 +1,19 @@
+body {
+  background-color: wheat;
+  color: #333;
+}
+.cats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.cat h3,
+.cat p {
+  margin: 0;
+}
