@@ -1,0 +1,19 @@
+header {
+  background-color: tomato;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}

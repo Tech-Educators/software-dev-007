@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form button {
+  margin-top: 1rem;
+  background-color: tomato;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  color: white;
+}

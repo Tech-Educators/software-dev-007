@@ -1,0 +1,14 @@
+body {
+  background-color: wheat;
+  color: #333;
+  margin: 0;
+}
+
+main {
+  padding: 1rem 5%;
+  min-height: 65vh;
+}
+
+.title {
+  text-align: center;
+}

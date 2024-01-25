@@ -1,0 +1,27 @@
+.cats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cat {
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  border: 2px solid #333;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.cat h3,
+.cat p {
+  margin: 0;
+}
