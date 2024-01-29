@@ -4,7 +4,8 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 export default async function Posts() {
-  const posts = await sql`SELECT * FROM posts`;
+  // we are sorting, becuase vercel puts the last one to change at the end...
+  const posts = await sql`SELECT * FROM posts ORDER BY id`;
 
   async function handleCreatePost(formData) {
     "use server";
