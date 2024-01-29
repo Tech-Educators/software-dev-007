@@ -14,7 +14,10 @@ export default function AddCat() {
     const height = formData.get("height");
 
     // make our sql request
-    await sql`INSERT INTO sunflowercats (name, seeds, height, cute) VALUES (${name}, ${seeds}, ${height}, true)`;
+    const newcat =
+      await sql`INSERT INTO sunflowercats (name, seeds, height, cute) VALUES (${name}, ${seeds}, ${height}, true) RETURNING id`;
+    console.log(newcat);
+    // const newcatId = newcat.rows[0].id;
 
     // revalidate the path so the new item shows
     revalidatePath("/");
