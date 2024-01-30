@@ -1,0 +1,15 @@
+.flash {
+  width: 150px;
+  height: 20px;
+  background-color: grey;
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+}
