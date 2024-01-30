@@ -1,0 +1,18 @@
+CREATE TABLE posts (
+    id SERIAL PRIMARY KEY,
+    title text,
+    content text
+);
+
+CREATE TABLE comments (
+    id SERIAL PRIMARY KEY,
+    username text,
+    content text,
+    post_id INT REFERENCES posts(id)
+)
+
+INSERT INTO posts (title, content) VALUES
+('Beaker says', 'Meememeemememememememememe. Mememememememememe. Me. Memememe.'),
+('Swedish Chef says', 'Hurrdigurdigurdigur.'),
+('The Count says', 'The count looks in a mirror and sees no reflection. "You are a terrible mirror. Not reflection on you of course."'),
+('Cookie monster says', 'COOOKIIEEE')
