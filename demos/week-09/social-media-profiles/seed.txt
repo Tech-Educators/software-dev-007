@@ -1,0 +1,6 @@
+CREATE TABLE profiles (
+  id SERIAL PRIMARY KEY,
+  clerk_user_id text,
+  username text,
+  bio text
+)
