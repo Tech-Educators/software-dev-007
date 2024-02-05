@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHAT?! Is this just normal HMTL?!?!?!</title>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>Check the console you punk.</h1>
+      <h2>My Products in a special order</h2>
+      <a href="?sort=asc&type=name">Sort by name asc</a>
+      <br />
+      <a href="?sort=desc&type=name">Sort by name desc</a>
+      <br />
+      <a href="?sort=asc&type=price">Sort by price asc</a>
+      <br />
+      <a href="?sort=desc&type=price">Sort by price desc</a>
+
+      <div id="products"></div>
+
+      <h2>How it works?!</h2>
+      <p>Here is the structure of every searchParam:</p>
+      <p>Starts with "?"</p>
+      <p>Then a key such as "name"</p>
+      <p>Then "="</p>
+      <p>Then a value, such as "Tim"</p>
+
+      <p>So you end up with "?name=Tim"</p>
+
+      <p>If you want extra params, separate the key=value pairs with an &</p>
+
+      <p>So: "?name=Tim&moustache=true"</p>
+    </div>
+  </body>
+</html>
