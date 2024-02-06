@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Planning
 
-## Getting Started
+## Initial scope planning
 
-First, run the development server:
+First we made a list of things the client wanted
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Screenshot 2024-02-06 at 11 47 43](https://github.com/Tech-Educators/software-dev-007/assets/91621088/e4462161-de04-4783-8320-ab671dd6a628)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Route planning
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Then we worked out what pages we wanted
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot 2024-02-06 at 11 47 38](https://github.com/Tech-Educators/software-dev-007/assets/91621088/ce497b52-3fd5-48fd-8809-ab96828c4587)
 
-## Learn More
+using that, we scaffolded our project in NextJS
 
-To learn more about Next.js, take a look at the following resources:
+## Wireframes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Then we made basic wireframes for what our pages should look like
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot 2024-02-06 at 11 47 21](https://github.com/Tech-Educators/software-dev-007/assets/91621088/5240f507-3f9f-468a-b73d-d59c5dc40e02)
