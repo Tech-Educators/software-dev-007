@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.lvl1 {
+  width: 800px;
+  height: 800px;
+  background-color: fuchsia;
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+.lvl2 {
+  width: 600px;
+  height: 600px;
+  background-color: #fed02d;
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+.lvl3 {
+  width: 400px;
+  height: 400px;
+  background-color: fuchsia;
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+.lvl4 {
+  cursor: pointer;
+  background-color: #fed02d;
+  border: 3px solid black;
+  padding: 1rem;
+}
